@@ -1,4 +1,4 @@
-# Import the randomizer :
+# Import the randomizer
 import random
 
 # Define the options of the player and computer and put them in a dictionary
@@ -35,6 +35,6 @@ choices = get_choices()
 c_choice = choices ["computer"]
 p_choice = choices ["player"]
 
-# Call the main variable and print it
+# Call the variables and print it
 result = check_win(p_choice, c_choice)
 print(result)
